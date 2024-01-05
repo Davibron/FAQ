@@ -64,3 +64,30 @@ button {
   color: hsl(292, 16%, 49%);
 }
 
+@media (min-width: 413px) {
+  body {
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    background-size: auto;
+  }
+
+  main {
+    width: 40vw;
+    height: 60vh;
+  }
+
+  #faq {
+    font-size: .9rem;
+  }
+
+  #div4 {
+    margin-bottom: 0rem;
+  }
+
+  #question {
+    width: 90%;
+  }
+
+  .hiddenDiv {
+    font-size: .85rem;
+  }
+}
